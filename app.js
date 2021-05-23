@@ -68,6 +68,7 @@ passport.use(new GoogleStrategy({
   function(accessToken, refreshToken, profile, cb) {
     // console.log(profile);
     User.findOrCreate({
+      username: profile.id,
       googleId: profile.id
     }, function(err, user) {
       return cb(err, user);
@@ -83,6 +84,7 @@ passport.use(new FacebookStrategy({
   function(accessToken, refreshToken, profile, cb) {
     // console.log(profile);
     User.findOrCreate({
+      username: profile.id,
       facebookId: profile.id
     }, function(err, user) {
       return cb(err, user);
