@@ -6,4 +6,5 @@ You can see the change of this app using git log<br>
 You need to setup google and facebook developer app, to use Oauth on this app <br>
 You need to provide App Id and App secret from google and facebook Oauth <br>
 To view this app, use this link : https://agile-plains-69067.herokuapp.com/ <br>
-Facebook Oauth doesn't work on this deployed app, i don't really know what's wrong with it
+Finally, Oauth with ffacebook and google works, i just adding username field on facebook strategy and google strategy.<br>
+MongoDb doesn't accept two data with username null, only 1
