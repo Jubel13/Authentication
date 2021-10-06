@@ -1,5 +1,5 @@
 # Authentication
-Authentication project from udemy<br>
+Authentication project from udemy course:The complete 2021 web development bootcamp<br>
 To use this app, you need a mongoDB installed on your system.<br>
 use "npm install" on the terminal to download needed NPM.<br>
 You can see the change of this app using git log<br>
